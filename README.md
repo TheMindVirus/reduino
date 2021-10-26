@@ -99,3 +99,6 @@ I also added a Lego 1x1 Transparent Red Brick and Tile on top of it for full eff
 Building microcontrollers is often exceedingly overcomplicated and could be a lot simpler.
 I hope that this gave you some inspiration to build your own microcontroller-based projects.
 ```
+### See it in action:
+https://github.com/TheMindVirus/reduino/tree/main/videos/IMG_5042.mov
+https://github.com/TheMindVirus/reduino/tree/main/videos/IMG_5028_converted_1.mp4
