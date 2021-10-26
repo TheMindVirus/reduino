@@ -51,16 +51,23 @@ I already had a handy stencil in the shape of a Cyberpunk Uno to pencil through 
 ```
 ![stencil](https://github.com/themindvirus/reduino/blob/main/photos/stencil.jpg)
 ```
-Before this project I had never had a reason to use a 1mm drill bit, but there we go.
+Before this project I had never had a reason to use a 1mm drill bit, but here we go.
 The diameter of each pin is just that small so a Pillar Drill was required. (Safety First!)
 ```
 ![1mmdrill](https://github.com/themindvirus/reduino/blob/main/photos/1mmdrill.jpg)
 ```
+Once the holes were drilled, the pin headers fit cleanly into the gaps in the Perspex.
+There is a little room for it to rotate but that is soon fixed with some light soldering.
 ```
 ![seethrough](https://github.com/themindvirus/reduino/blob/main/photos/seethrough.jpg)
 ```
+Perspex makes sheets with a protective film useful for preventing scratches and burn marks.
+The wires are so close together that it is essential to use a multimeter to check for shorts.
 ```
 ![multimeter](https://github.com/themindvirus/reduino/blob/main/photos/multimeter.jpg)
+```
+
+```
 ![atmelice](https://github.com/themindvirus/reduino/blob/main/photos/atmelice.jpg)
 ![studio](https://github.com/themindvirus/reduino/blob/main/photos/studio.png)
 ![umbilical](https://github.com/themindvirus/reduino/blob/main/photos/umbilical.jpg)
