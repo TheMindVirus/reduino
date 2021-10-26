@@ -66,11 +66,36 @@ The wires are so close together that it is essential to use a multimeter to chec
 ```
 ![multimeter](https://github.com/themindvirus/reduino/blob/main/photos/multimeter.jpg)
 ```
-
+The CPU for this project is a standalone ATMEGA328P, as found on the Arduino Uno Rev3 board.
+To factory program it, some specialised proprietary hardware and software tools are required.
+```
+![studio](https://github.com/themindvirus/reduino/blob/main/photos/studio.png)
+```
+This is Microchip Studio, formerly Atmel Studio 7 and based on Microsoft Visual Studio 2015.
+It supports many AVR-based Microcontrollers as well as several Smart ARM devices (SAM).
+```
+![umbilical](https://github.com/themindvirus/reduino/blob/main/photos/umbilical.jpg)
+```
+A proprietary JTAG Debugger for the specific model of microcontroller is required.
+This one is an Atmel ICE, but an Arduino Uno can also be used for ISP/ICSP programming.
+```
+![socket](https://github.com/themindvirus/reduino/blob/main/photos/socket.jpg)
+```
+Many hours into the project I realised my CPU chips weren't identifying. The reason is daft.
+IC pins are flat and don't connect well to pin headers. A round-pin socket assists with this.
+```
+![signature](https://github.com/themindvirus/reduino/blob/main/photos/signature.png)
+```
+I finally got a signature reading back from my custom board, but only after correcting the fuses,
+reseating the flimsy crystal oscillator and using AVCC instead of the normal VCC for power.
+```
+![legoled](https://github.com/themindvirus/reduino/blob/main/photos/legoled.jpg)
+```
+Overjoyed that my custom board worked, I connected an LED to pins 7 and 8 to make it blink.
+I also added a Lego 1x1 Transparent Red Brick and Tile on top of it for full effect.
 ```
 ![atmelice](https://github.com/themindvirus/reduino/blob/main/photos/atmelice.jpg)
-![studio](https://github.com/themindvirus/reduino/blob/main/photos/studio.png)
-![umbilical](https://github.com/themindvirus/reduino/blob/main/photos/umbilical.jpg)
-![socket](https://github.com/themindvirus/reduino/blob/main/photos/socket.jpg)
-![signature](https://github.com/themindvirus/reduino/blob/main/photos/signature.png)
-![legoled](https://github.com/themindvirus/reduino/blob/main/photos/legoled.jpg)
+```
+Building microcontrollers is often exceedingly overcomplicated and could be a lot simpler.
+I hope that this gave you some inspiration to build your own microcontroller-based projects.
+```
