@@ -1,5 +1,6 @@
 # reduino
 This repository has been made in the hope that a device like this becomes simpler to make.
+![reduino](https://github.com/themindvirus/reduino/blob/main/photos/reduino.jpg)
 ```
 I present to you: The Reduino Uno - A PCB-less Arduino Microcontroller Board...
 ...made from a sheet of translucent red Perspex/Plexiglass and some standard Pin Headers.
